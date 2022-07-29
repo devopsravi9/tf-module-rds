@@ -1,0 +1,10 @@
+variable "ENGINE" {}
+variable "ENGINE_VERSION" {}
+variable "RDS_INSTANCE_CLASS" {}
+variable "PRIVATE_SUBNET_ID" {}
+variable "RGS_PORT" {}
+variable "ALLOW_SG_CIDR" {}
+variable "PG_FAMILY" {}
+variable "PROJECT" {}
+variable "ENV" {}
+variable "VPC_ID" {}
