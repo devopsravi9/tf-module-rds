@@ -1,6 +1,6 @@
 // this taken from aws RDS. for multiple rds we use aws_rds_cluster resource
 
-resource "aws_db_instance" "default" {
+resource "aws_db_instance" "main" {
   allocated_storage    = 10
   engine               = var.RDS_ENGINE
   engine_version       = var.RDS_ENGINE_VERSION
